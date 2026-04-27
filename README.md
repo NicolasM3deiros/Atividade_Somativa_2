@@ -35,7 +35,7 @@ Para rodar este projeto localmente, você precisará ter o [Node.js](https://nod
    npm install
 
 3. **Configure o Firebase::**
-Crie um arquivo src/firebase.js e adicione as suas chaves de configuração do Firebase (NUNCA comite suas chaves reais em repositórios públicos):
+Crie um arquivo src/firebase.js e adicione as suas chaves de configuração do Firebase:
 
    ```JavaScript
     const firebaseConfig = {
