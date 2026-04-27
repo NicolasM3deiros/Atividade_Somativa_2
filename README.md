@@ -28,3 +28,32 @@ Para rodar este projeto localmente, você precisará ter o [Node.js](https://nod
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/NicolasM3deiros/SEU_REPOSITORIO.git](https://github.com/NicolasM3deiros/SEU_REPOSITORIO.git)
+
+
+2. **Instale as dependências:**
+   ```bash
+   npm install
+
+3. **Configure o Firebase::**
+Crie um arquivo src/firebase.js e adicione as suas chaves de configuração do Firebase (NUNCA comite suas chaves reais em repositórios públicos):
+
+   ```JavaScript
+    const firebaseConfig = {
+      apiKey: "SUA_API_KEY_AQUI",
+      authDomain: "seu-projeto.firebaseapp.com",
+      projectId: "seu-projeto",
+      storageBucket: "seu-projeto.firebasestorage.app",
+      messagingSenderId: "123456789",
+      appId: "1:123456789:web:abcdef123456"
+    };
+   
+
+2. ** Inicie a aplicação:**
+    ```Bash
+   npm start
+
+🌐 Deploy
+A aplicação está disponível online através do Netlify.
+🔗 CLIQUE AQUI PARA ACESSAR O SITE
+
+Desenvolvido por Nicolas Alcides Laranjeira Medeiros 🎓
